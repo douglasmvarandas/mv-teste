@@ -5,7 +5,7 @@
 
 **Informações Iniciais:**
 
-1. Para submeter o seu projeto, faça um fork deste repositório;
+1. Para submeter o seu projeto, **cire um fork** deste repositório e faça um **pull request** para enviar o seu código;
 
 2. O link do template é o seguinte: https://github.com/gurayyarar/AdminBSBMaterialDesign;
 
@@ -34,6 +34,7 @@ b) A interface deve ter uma busca de registros utilizando angularjs.
  - deve ser muito bem apresentável;
  - precisa respeitar padrões de responsividade;
  - deve ser desenvolvida exclusivamente com o uso de AngularJS, HTML5 e CSS3;
+ - os elementos HTML deverão ser aqueles utilizados no template (atenção para o usu do Bootstrap).
 
 
 ...Boa Sorte!
