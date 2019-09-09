@@ -5,11 +5,11 @@
 
 **Informações Iniciais:**
 
-1. Para submeter o seu projeto, faça um fork deste repositório.
+1. Para submeter o seu projeto, faça um fork deste repositório;
 
-2. O link do template é o seguinte: https://github.com/gurayyarar/AdminBSBMaterialDesign
+2. O link do template é o seguinte: https://github.com/gurayyarar/AdminBSBMaterialDesign;
 
-3. O backend deve ser desenvolvido com NodeJS ou PHP e o Banco de Dados preferencialmente MySQL.
+3. O backend deve ser desenvolvido com NodeJS ou PHP e o Banco de Dados preferencialmente MySQL;
 
 4. O script de Banco de Dados deve fazer parte dos arquivos versionados.
 
