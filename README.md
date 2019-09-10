@@ -34,7 +34,7 @@ b) A interface deve ter uma busca de registros utilizando angularjs.
  - deve ser muito bem apresentável;
  - precisa respeitar padrões de responsividade;
  - deve ser desenvolvida exclusivamente com o uso de AngularJS, HTML5 e CSS3;
- - os elementos HTML deverão ser aqueles utilizados no template (atenção para o usu do Bootstrap).
+ - os elementos HTML deverão ser aqueles utilizados no template (atenção para o uso do Bootstrap).
 
 
 ...Boa Sorte!
