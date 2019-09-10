@@ -5,7 +5,7 @@
 
 **Informações Iniciais:**
 
-1. Para submeter o seu projeto, **cire um fork** deste repositório e faça um **pull request** para enviar o seu código;
+1. Para submeter o seu projeto, **faça um fork** deste repositório e realize um **pull request** para enviar o seu código;
 
 2. O link do template é o seguinte: https://github.com/gurayyarar/AdminBSBMaterialDesign;
 
