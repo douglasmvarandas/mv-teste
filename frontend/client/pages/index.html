@@ -1,0 +1,56 @@
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <div class="block-header">
+                    <h2 class="col-md-9">LISTA DE CONTATOS</h2>
+                    <a class="btn btn-info col-md-2" ng-click="telaAdicionarContato()"> Adicionar Contato </a>
+                </div>
+            </div>
+            <div class="body">
+                <table class="table">
+                    <thead>
+                        <th> # </th>
+                        <th> Nome </th>
+                        <th> Telefone </th>
+                        <th> Categoria </th>
+                        <th> Ações </th>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="c in contatos">
+                            <td> {{c.id}} </td>
+                            <td> {{c.nome}} </td>
+                            <td> {{c.telefone}} </td>
+                            <td> {{c.categoria}} </td>
+                            <td> 
+                                    <a ng-click="telaEditarContato(c.id)">
+                                        <i class="material-icons">edit</i>
+                                        <!-- <span>Editar</span> -->
+                                    </a>
+                                    <a ng-click="remover(c.id)">
+                                        <i class="material-icons">delete</i>
+                                        <!-- <span>Remover</span> -->
+                                    </a> 
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a ng-click="voltarPagina()" class="waves-effect">
+                                <i class="material-icons">chevron_left</i>
+                            </a>
+                        </li>
+                        <li ng-repeat="p in paginas">
+                            <a ng-click="carregarPagina(p.value)" class="waves-effect">{{p.label}}</a>
+                        </li>
+                        <li>
+                            <a ng-click="avancarPagina()" class="waves-effect">
+                                <i class="material-icons">chevron_right</i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
