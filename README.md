@@ -11,7 +11,7 @@
 
 3. O backend deve ser desenvolvido com PHP e o Banco de Dados preferencialmente MySQL;
 
-4. O script de Banco de Dados deve fazer parte dos arquivos versionados.
+4. O dump do Banco de Dados deve fazer parte dos arquivos versionados.
 
 **Questão:**
 
@@ -26,7 +26,7 @@ a) Os campos do formulário são os seguintes:
  - estado (select box com os 5 Estados de sua preferência)
  - categoria (select box com os itens Cliente, Fornecedor e Funcionário)
 
-b) A interface deve ter uma busca de registros utilizando React.
+b) A interface deve ter uma busca de registros.
 
 **O foco do trabalho é na interface, de modo que a sua criação deve atender aos seguintes requisitos:**
 
