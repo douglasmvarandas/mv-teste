@@ -26,14 +26,14 @@ a) Os campos do formulário são os seguintes:
  - estado (select box com os 5 Estados de sua preferência)
  - categoria (select box com os itens Cliente, Fornecedor e Funcionário)
 
-b) A interface deve ter uma busca de registros utilizando angularjs.
+b) A interface deve ter uma busca de registros utilizando React.
 
 **O foco do trabalho é na interface, de modo que a sua criação deve atender aos seguintes requisitos:**
 
  - o código precisa ser bem formatado;
  - deve ser muito bem apresentável;
  - precisa respeitar padrões de responsividade;
- - deve ser desenvolvida exclusivamente com o uso de AngularJS, HTML5 e CSS3;
+ - deve ser desenvolvida exclusivamente com o uso de React, HTML5 e CSS3;
  - os elementos HTML deverão ser aqueles utilizados no template (atenção para o uso do Bootstrap).
 
 
