@@ -1,0 +1,59 @@
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <div class="block-header">
+                    <h2 class="col-md-9">CONTATO</h2>
+                </div>
+            </div>
+            <div class="body">
+                <form ng-submit="submit()">
+                        <div class="form-group ">
+                            <label class="form-label">Nome: </label>
+                            <div class="form-line">
+                                <input type="text" maxlength="255" class="form-control" ng-model="contato.nome" />
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-label">Telefone: </label>
+                            <div class="form-line">
+                                <input type="text" maxlength="255" class="form-control" ng-model="contato.telefone" />
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-label">E-mail: </label>
+                            <div class="form-line">
+                                <input type="email" maxlength="255" class="form-control" ng-model="contato.email" />
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-label">Cidade: </label>
+                            <div class="form-line">
+                                <input type="text" maxlength="255" class="form-control" ng-model="contato.cidade" />
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-label">Estado: </label>
+                            <div class="form-line">
+                                <input type="text" maxlength="2" class="form-control" ng-model="contato.estado" />
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label class="form-label">Categoria: </label>
+                            <div class="form-line">
+                                <input type="text" maxlength="50" class="form-control" ng-model="contato.categoria" />
+                            </div>
+                        </div>
+                        <!-- style="text-align: center !important;margin-right: auto;margin-left: auto;" -->
+                    
+                    <div class="col-md-12" 
+                    >
+                    <!-- style="text-align: center !important;margin-right: auto;margin-left: auto;" -->
+                        <input type="submit" value="ENVIAR" class="btn btn-info"
+                            >
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
